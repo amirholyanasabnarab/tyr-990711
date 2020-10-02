@@ -1,0 +1,25 @@
+.wrapper{
+    /*width: 80%;*/
+}
+.header{
+    height: 50px;
+    background-color: var(--primary-color);
+}
+/*.navigation{*/
+/*    height: 30px;*/
+/*    background-color: var(--secondary-color);*/
+/*}*/
+/*.main{*/
+/*    !*height: 500px;*!*/
+/*}*/
+.footer{
+    height: 200px;
+    background-color: var(--dark-color);
+}
+
+
+/*@media only screen and (max-width: 688px) {*/
+/*    .header{*/
+/*        background-color: var(--secondary-color);*/
+/*    }*/
+/*}*/

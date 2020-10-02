@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+:root{
+    --menu-color:var(--light-color);
+}
+.header .menu-button{
+    display: none;
+    background-color: transparent;
+    border-radius: var(--dimen-radius);
+    background-image: linear-gradient(
+    to bottom,
+    var(--menu-color)0%,
+    var(--menu-color)20%,
+    transparent 20%,
+    transparent 40%,
+    var(--menu-color)40%,
+    var(--menu-color)60%,
+    transparent 60%,
+    transparent 80%,
+    var(--menu-color)80%,
+    var(--menu-color)100%
+    );
+    height: 30px;
+    width: 30px;
+    border: none;
+}
+
+@media (max-width: 688px) {
+    .header .menu-button{
+        display: initial;
+    }
+}
